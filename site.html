@@ -1,0 +1,96 @@
+<!-- Rhis will be used for rhe office network I'll create in Cisco Packet Tracer  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ddd;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .main {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .main img {
+            width: 100%;
+            height: auto;
+        }
+        .main .text {
+            margin-top: 10px;
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .sidebar {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="main">
+            <img src="placeholder.jpg" alt="Placeholder Image">
+            <div class="text">
+                <p>This is a paragraph describing the image or providing some content.</p>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <ul>
+                <li>Sidebar Link 1</li>
+                <li>Sidebar Link 2</li>
+                <li>Sidebar Link 3</li>
+                <li>Sidebar Link 4</li>
+            </ul>
+        </aside>
+    </div>
+
+</body>
+</html>
